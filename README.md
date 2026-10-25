@@ -22,4 +22,16 @@ On the game one click period is 13.47 ns and with 3180 Flip Flops being delayed 
 I believe one way to fix this issue is the refactor Snake_Logic.sv so that it can do pipelining. By splitting the calculations from 1 clock cycle to 3 clock cycles each piece will easily fit within 13.47 ns while keeping the clock frequency the same. Of course, this means the game will run slower but with TICK_FRAMES being 24 I believe there is room to spare to keep the speed the same while being able to handle more calculations.
 
 ## Notes
+For those who were at the game jam: I had a lot of fun and I look forward to meeting you all again!
+
 I will most likely come back to this project, or at least take inspiration of the display system to create my own graphics driver and GPU in the future.
+
+## itch.io page
+[itch.io page](https://gene217.itch.io/fpga-snake)
+
+## Pictures
+<img width="459" height="293" alt="ezgif-cropped" src="https://github.com/user-attachments/assets/a6ae0802-5881-4ea3-a648-8a2477f781db" />
+<img width="560" height="365" alt="Screenshot 2026-10-24 161800" src="https://github.com/user-attachments/assets/05bdfb66-3d82-4803-86ca-ecd3774b5965" />
+<img width="768" height="440" alt="Screenshot 2026-10-24 161919" src="https://github.com/user-attachments/assets/3cc6fac4-fc8f-4f14-ba73-e950378d4744" />
+<img width="534" height="356" alt="Screenshot 2026-10-24 161940" src="https://github.com/user-attachments/assets/75d7fbc7-32b7-476f-9798-6cab629403ba" />
+
