@@ -21,7 +21,7 @@
 
 
 module Tick_Gen #(
-    parameter int TICK_FRAMES = 24, //starting frames per move
+    parameter int TICK_FRAMES = 18, //starting frames per move
     parameter int MIN_TICK_FRAMES = 6   //fastest allowed
 ) (
     input logic clk,
